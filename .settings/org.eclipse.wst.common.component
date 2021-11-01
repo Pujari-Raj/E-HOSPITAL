@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+                    
+    
+    
+    
+    <wb-module deploy-name="E-Hospital">
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+                                        
+        
+        
+        
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+                                        
+        
+        
+        
+        <dependent-module archiveName="h2-1.4.199.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files (x86)/H2/bin/h2-1.4.199.jar">
+                                                            
+            
+            
+            
+            <dependency-type>uses</dependency-type>
+                                                        
+        
+        
+        
+        </dependent-module>
+                                
+        
+        
+        <dependent-module archiveName="PaytmChecksum.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Documents/Downloads/Paytm_JAVA_Checksum-master/Paytm_JAVA_Checksum-master/PaytmChecksum.jar">
+                                                
+            
+            
+            <dependency-type>uses</dependency-type>
+                                            
+        
+        
+        </dependent-module>
+                        
+        
+        <dependent-module archiveName="org.json.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Documents/Downloads/org.json.jar/org.json.jar">
+                                    
+            
+            <dependency-type>uses</dependency-type>
+                                
+        
+        </dependent-module>
+                
+        <dependent-module archiveName="commons-fileupload-1.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Documents/Downloads/commons-fileupload-1.4-bin/commons-fileupload-1.4-bin/commons-fileupload-1.4.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="commons-io-2.8.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/Documents/Downloads/commons-io-2.8.0-bin/commons-io-2.8.0/commons-io-2.8.0.jar">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+        <dependent-module archiveName="java-mail-1.4.4.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/software (Study)/jar file/java-mail-1.4.4.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/D:/software (Study)/jar file/activation.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                                        
+        
+        
+        
+        <property name="context-root" value="E-Hospital"/>
+                                        
+        
+        
+        
+        <property name="java-output-path" value="/E-Hospital/build/classes"/>
+                                    
+    
+    
+    
+    </wb-module>
+                
+
+
+
+</project-modules>

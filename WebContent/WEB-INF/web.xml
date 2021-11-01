@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>E-Hospital</display-name>
+	
+  <servlet>
+  	<servlet-name>Register_User</servlet-name>
+  	<servlet-class>com.learning.hospital.Register_User</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Register_User</servlet-name>
+  	<url-pattern>/Register_User</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Register_Patient</servlet-name>
+  	<servlet-class>com.learning.hospital</servlet-class>
+  </servlet>
+  
+   <servlet-mapping>
+  	<servlet-name>Register_Patient</servlet-name>
+  	<url-pattern>/Register_Patient</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Login_validate</servlet-name>
+  	<servlet-class>com.learning.hospital.Login_validate</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Login_validate</servlet-name>
+  	<url-pattern>/Login_validate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>Logout_Invalidate</servlet-name>
+  <servlet-class>com.learning.hospital.Logout_Invalidate</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Logout_Invalidate</servlet-name>
+  	<url-pattern>/Logout_Invalidate</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Process_checkout</servlet-name>
+  	<servlet-class>com.learning.hospital.Process_checkout</servlet-class>
+  </servlet>
+  
+   <servlet-mapping>
+  	<servlet-name>Process_checkout</servlet-name>
+  	<url-pattern>/Process_checkout</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Process_payment_servlet</servlet-name>
+  	<servlet-class>com.learning.hospital.Process_payment_servlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Process_payment_servlet</servlet-name>
+  	<url-pattern>/Process_payment_servlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>OrderConfirmation</servlet-name>
+  	<servlet-class>com.learning.hospital.OrderConfirmation</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>OrderConfirmation</servlet-name>
+  	<url-pattern>/OrderConfirmation</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Admin_Add_Party</servlet-name>
+  	<servlet-class>com.learning.hospital.Admin_Add_Party</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Admin_Add_Party</servlet-name>
+  	<url-pattern>/Admin_Add_Party</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Admin_Add_Product</servlet-name>
+  	<servlet-class>com.learning.hospital.Admin_Add_Product</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Admin_Add_Product</servlet-name>
+  	<url-pattern>/Admin_Add_Product</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Update_Party_Profile</servlet-name>
+  	<servlet-class>com.learning.hospital.Update_Party_Profile</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Update_Party_Profile</servlet-name>
+  	<url-pattern>/Update_Party_Profile</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  	<servlet-name>Update_Party_Address</servlet-name>
+  	<servlet-class>com.learning.hospital.Update_Party_Address</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Update_Party_Address</servlet-name>
+  	<url-pattern>/Update_Party_Address</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Bed_Check</servlet-name>
+  	<servlet-class>com.learning.hospital.Bed_Check</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Bed_Check</servlet-name>
+  	<url-pattern>/Bed_Check</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Update_Bed_Status</servlet-name>
+  	<servlet-class>com.learning.hospital.Update_Bed_Status</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Update_Bed_Status</servlet-name>
+  	<url-pattern>/Update_Bed_Status</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  	<servlet-name>Book_Bed</servlet-name>
+  	<servlet-class>com.learning.hospital.Book_Bed</servlet-class>
+  </servlet>
+  
+  
+  <servlet-mapping>
+  	<servlet-name>Book_Bed</servlet-name>
+  	<url-pattern>/Book_Bed</url-pattern>
+  </servlet-mapping>
+	
+  <servlet>
+  	<servlet-name>Doctor_Prescription</servlet-name>
+  	<servlet-class>com.learning.hospital.Doctor_Prescription</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Doctor_Prescription</servlet-name>
+  	<url-pattern>/Doctor_Prescription</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>Sendemail</servlet-name>
+  	<servlet-class>com.learning.hospital.Sendemail</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Sendemail</servlet-name>
+  	<url-pattern>/Sendemail</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<servlet-name>Change_Password</servlet-name>
+  	<servlet-class>com.learning.hospital.Change_Password</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Change_Password</servlet-name>
+  	<url-pattern>/Change_Password</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<servlet-name>Edit_Product</servlet-name>
+  	<servlet-class>com.learning.hospital.Edit_Product</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Edit_Product</servlet-name>
+  	<url-pattern>/Edit_Product</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  	<servlet-name>Update_Party_Details</servlet-name>
+  	<servlet-class>com.learning.hospital.Update_Party_Details</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Update_Party_Details</servlet-name>
+  	<url-pattern>/Update_Party_Details</url-pattern>
+  </servlet-mapping>
+	
+ <servlet>
+ 	<servlet-name>Party_Delete</servlet-name>
+ 	<servlet-class>com.learning.hospital.Party_Delete</servlet-class>
+ </servlet>
+  		  
+ <servlet-mapping>
+ 	<servlet-name>Party_Delete</servlet-name>
+ 	<url-pattern>/Party_Delete</url-pattern>
+ </servlet-mapping> 		
+  	
+ <servlet>
+ 	<servlet-name>Update_Product_Details</servlet-name>
+ 	<servlet-class>com.learning.hospital.Update_Product_Details</servlet-class>
+ </servlet> 	
+  	
+  <servlet-mapping>
+  	<servlet-name>Update_Product_Details</servlet-name>
+  	<url-pattern>/Update_Product_Details</url-pattern>
+  </servlet-mapping>	
+  	
+  <servlet>
+  	<servlet-name>Product_Delete</servlet-name>
+ 	<servlet-class>com.learning.hospital.Product_Delete</servlet-class>
+  </servlet>
+  		  
+  <servlet-mapping>
+  	<servlet-name>Product_Delete</servlet-name>
+  	<url-pattern>/Product_Delete</url-pattern>
+  </servlet-mapping> 		  
+  	
+  <servlet>
+  	<servlet-name>Order_Confirm_Email</servlet-name>
+  	<servlet-class>com.learning.hospital.Order_Confirm_Email</servlet-class>
+  </servlet>	
+  		
+  <servlet-mapping>
+  	<servlet-name>Order_Confirm_Email</servlet-name>
+  	<url-pattern>/Order_Confirm_Email</url-pattern>
+  </servlet-mapping>
+  		  
+  <servlet>
+  	<servlet-name>Payment_Form</servlet-name>
+  	<servlet-class>com.learning.hospital.Payment_Form</servlet-class>
+  </servlet>		
+  
+  <servlet-mapping>
+  	<servlet-name>Payment_Form</servlet-name>
+  	<url-pattern>/Payment_Form</url-pattern>
+  </servlet-mapping>  
+  		  
+  <servlet-mapping>
+  	<servlet-name>New_Address</servlet-name>
+  	<url-pattern>/New_Address</url-pattern>
+  </servlet-mapping>		  
+
+	<servlet>
+		<servlet-name>New_Address</servlet-name>
+		<servlet-class>com.learning.hospital.New_Address</servlet-class>
+	</servlet>	
+  		  
+  <context-param>
+  	<param-name>rootfolder</param-name>
+  	<param-value>D:\Backup\eclipse-workspace\CollegeProject\E-Hospital\WebContent\productcontent\</param-value>
+  </context-param>
+  
+  
+  <context-param>
+  	<param-name>drivername</param-name>
+  	<param-value>org.h2.Driver</param-value>
+  </context-param>	
+    
+   <context-param>
+  	<param-name>dburl</param-name>
+  	<param-value>jdbc:h2:tcp://localhost/~/test</param-value>
+  </context-param>	
+   
+   <context-param>
+   	<param-name>dbusrnm</param-name>
+   	<param-value>sa</param-value> 
+   </context-param>
+   
+   <context-param>
+   	<param-name>dbpswd</param-name>
+   	<param-value>sasa</param-value> 
+   </context-param>
+    
+   <context-param>
+   	<param-name>max_no_patient</param-name>
+   	<param-value>10</param-value>
+   </context-param> 
+    
+    <context-param>
+    	<param-name>Test_Merchant_ID</param-name>
+    	<param-value>EpKbAk02130551862226</param-value>
+    </context-param>
+    
+    <context-param>
+    	<param-name>Test_Merchant_Key</param-name>
+    	<param-value>T7nBfpPwerFm1crz</param-value>
+    </context-param>
+    
+    <context-param>
+    	<param-name>Website</param-name>
+    	<param-value>WEBSTAGING</param-value>
+    </context-param>
+    
+    <context-param>
+    	<param-name>Industry_Type</param-name>
+    	<param-value>Retail</param-value>
+    </context-param>
+    <context-param>
+    	<param-name>Channel_ID</param-name>
+    	<param-value>WEB</param-value>
+    </context-param>
+    
+    <context-param>
+    	<param-name>Inittransaction_Baseurl</param-name>
+    	<param-value>https://securegw-stage.paytm.in/theia/api/v1/initiateTransaction</param-value>
+    </context-param>
+    
+    <context-param>
+    	<param-name>Transaction_URL</param-name>
+    	<param-value>https://securegw-stage.paytm.in/order/process</param-value>
+    </context-param>
+    
+    <context-param>
+    	<param-name>Transaction_Status_URL</param-name>
+    	<param-value>https://securegw-stage.paytm.in/order/status</param-value>
+    </context-param>
+    
+    <context-param>
+    	<param-name>callback_url</param-name>
+    	<param-value>http://localhost:8080/E-Hospital/index.jsp</param-value>
+    </context-param>
+    
+</web-app>
